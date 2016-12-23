@@ -1,92 +1,119 @@
 @charset "utf-8";
+
 /* CSS Document */
 
 body {
-	background:rgba(191,116,88,0.87) no-repeat;
-	background-position:center;
+    background: #3597E3 no-repeat;
+    background-position: center;
+    height: 1000px;
 }
 
+#top-wrap {
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -8px;
+    height: 300px;
+    background-color: #0F436C;
+    text-align: center;
+}
 
+#top-inside-wrap {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height 200px;
+    background-color: #0F436C;
+}
+
+#column-wrap {
+    width: 80%;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #3597E3;
+    background-position: middle;
+    background-size: cover;
+}
+
+.imagelogo {
+	margin-top: 45px;
+    margin-right: 80%;
+		margin-left: 25px;
+    height: 200px;
+    width: 200px;
+
+}
+
+header h1 {
+    position: relative;
+		font-family: Sofia ;
+		font-size: 4em;
+    top: -170px;
+		margin-left: 120px;
+}
+
+ul {}
+
+li {
+    display: inline;
+    /*Code used to display all the text in one line*/
+}
+
+#menu a {
+	  display: block;
+		margin-top: -163px;
+    height: 40px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: red;
+    border: 5px solid #990000;
+    box-shadow: 4px 4px 4px #999;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    /*https://www.codecademy.com/en/forum_questions/50c29d469bc1e14c8b001f64*/
+}
+
+}
+#menu a:hover {}
+#menu li {
+    width: 242px;
+    float: left;
+    margin-bottom: inherit;
+}
 .left-column {
-	float: left;
-	width: 45%;
-	height: 515px;
-	background-color: rgba(203,110,77,0.87);
-
+    float: left;
+    width: 50%;
+    height: 515px;
+    background-color: #FFF;
 }
 .right-column {
-	float: right;
-	width: 55%;
-	height: 515px;
-	background-color: rgba(245,240,239,0.87);
+    float: right;
+    width: 50%;
+    height: 515px;
+    background-color: #FFF;
+
 
 }
+.profilepic {
+    width: 350px;
+    height: 350px;
+		border-top-left-radius: 235px;
 
+	border-bottom-left-radius: 235px;
+	border-top-right-radius: 235px;
 
+	border-bottom-right-radius: 235px;
+	margin-top: 50px;
+}
 footer {
-	text-align: center;
-}
+    text-align: center;
+		height: 50px;
+    background-color: #072236;
 
-#header-style {
-	left: 20px;
-	  
-
-	    top: 78px;
-
+		margin-left: -15px;
+		margin-right: -8px;
 }
-
-
-/*#wrap {
-	width: 98%;
-	height: 574px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top:auto;
-	background-color: rgba(219,177,162,0.87);
-	background-position: right top;
-	background-size: cover;
-}*/
-
-/*body {
-  margin:0;
-  font-family: "Helvatica", sans-serif;
-  font-size:1.5em;
-  text-align: center;
-}
-
-h3 {
-  margin: 1em;
-}
-
-.header {
-  margin-top: -28px;
-  width:100%;
-  height:100px;
-  background-color: #669;
-}
-.left-column {
-  float: left;
-  width: 50%; /* half the page*/
-/*  height: 500px;
-  background-color: #69C;
-  text-align: center;
-}
-.right-column {
-  float: right;
-  width: 50%; /* half the page*/
-  /*height: 500px;
-  background-color: #99C;
-  text-align: center;
-}
-.footer {
-  clear: left;
-  margin-bottom:0;
-  width:100%;
-  height:200px;
-  background-color: rgb(39, 13, 62);
-}
-.p1 {
-  text-align: left;
-  font-size: 12pt;
-}
-/*
