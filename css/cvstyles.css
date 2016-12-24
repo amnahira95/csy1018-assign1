@@ -1,0 +1,207 @@
+/* Name: Amna Mahmood - Student ID number: 16433342 */
+
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    /* All the content under body heading is to style the body */
+    background: #3597E3 no-repeat;
+    background-position: center;
+    height: 1750px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-wrap {
+    /* this top wrap is used to style the area where the logo and header are situated */
+    height: 320px;
+    width: 100%;
+    text-align: center;
+    background-color: #0F436C;
+    margin: auto;
+    margin-top: -4px;
+}
+
+#header-wrap {
+    /* created a header wrap under "top-wrap" to make sure the content (logo, and header) doesnt move out when screen is resized*/
+    width: 75%;
+    height: 280px;
+    margin: auto;
+}
+
+.column-wrap {
+    /* I added a flex-box, making two rows into columns. Reference: http://www.sketchingwithcss.com/samplechapter/cheatsheet.html */
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+
+.top-row {
+    background: #5DADE9;
+}
+
+.left-column {
+    background: #5DADE9;
+    width: 50%;
+    height: 1050px;
+}
+
+.right-column {
+    height: 250px;
+    background: #5DADE9;
+    width: 50%;
+    height: 1050px;
+}
+
+h2 {
+    font-family: Trocchi;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: Trocchi;
+    font-size: 1.4em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+h4 {
+    font-family: Trocchi;
+    font-size: 1em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+p {
+    font-size: 1em;
+    display: block;
+    font-family: Trocchi;
+    text-align: center;
+    line-height: 10px;
+}
+
+p1 {
+    font-size: 0.8em;
+    display: block;
+    text-align: justify;
+    font-family: Trocchi;
+    line-height: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p2 {
+    /*This paragraph is used for bullet pointed lists, reference: http://stackoverflow.com/questions/32039846/can-i-use-css-to-add-a-bullet-point-to-any-element*/
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 0.8em;
+    font-family: Trocchi;
+    margin-left: 10px;
+}
+
+.imagelogo {
+    height: 180px;
+    width: 200px;
+    margin-top: 18px;
+}
+
+header h1 {
+    position: relative;
+    font-family: Sofia;
+    font-size: 3em;
+    margin: auto;
+}
+
+#menu {
+    height: 70px;
+    text-align: center;
+    margin: auto;
+    margin-top: -5px;
+}
+
+li {
+    display: inline;
+    margin-left: 0%;
+    /*Code used to display all the text in one line*/
+}
+
+#menu a {
+    display: block;
+    height: 30px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: red;
+    border: 7px solid #B41818;
+    box-shadow: 4px 4px 4px #999;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    /*https://www.codecademy.com/en/forum_questions/50c29d469bc1e14c8b001f64*/
+}
+
+}
+#menu a:hover {
+    background-color: #20CBD9;
+}
+#menu li {
+    width: 242px;
+    float: left;
+    margin-bottom: inherit;
+}
+.footer {
+    padding: 1.2em;
+    background: rgb(27, 83, 110);
+    text-align: center;
+}
+@media (max-width:40em) {
+    .top-wrap {
+        display: flex;
+        height: 450px;
+    }
+
+    header h1 {
+        font-size: 1.94em;
+        margin: auto;
+    }
+
+    li {
+        display: block;
+        margin-left: 65px;
+    }
+
+    .top-row {
+        margin-top: 200px;
+    }
+
+    .left-column {
+        width: 100%;
+        height: 1100px;
+    }
+
+    .right-column {
+        width: 100%;
+        height: 1150px;
+    }
+
+    .column-wrap {
+        /*This code is to make the two columns go underneath each other*/
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex: 1 0 auto;
+    }
+}
+@media (min-width:40em) {
+    .column-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex: 0 1 auto;
+    }
+}
