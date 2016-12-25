@@ -1,0 +1,262 @@
+/* Name: Amna Mahmood - Student ID number: 16433342 */
+
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    /* All the content under body heading is to style the body */
+    background: #3597E3 no-repeat;
+    background-position: center;
+    height: 1000px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-wrap {
+    /* this top wrap is used to style the are where the logo and header are situated */
+    height: 320px;
+    width: 100%;
+    text-align: center;
+    background-color: #0F436C;
+    margin: auto;
+    margin-top: -4px;
+}
+
+#header-wrap {
+    /* created a header wrap under "top-wrap" to make sure the content (logo, and header) doesnt move out when screen is resized*/
+    width: 75%;
+    height: 280px;
+    margin: auto;
+}
+
+.column-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1 0 auto;
+    height: 510px;
+}
+
+.right-column {
+    width: 50%;
+    background: #5DADE9;
+    text-align: center;
+}
+
+.left-column {
+    width: 50%;
+    background: #5DADE9;
+}
+
+h2 {
+    font-family: Sofia;
+    font-size: 2.2em;
+    text-align: left;
+    margin-left: 20px;
+    animation: nudge 7s linear infinite alternate;
+}
+
+p {
+    font-size: 1em;
+    display: block;
+    font-family: Trocchi;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.imagelogo {
+    height: 180px;
+    width: 200px;
+    margin-top: 18px;
+}
+
+header h1 {
+    position: relative;
+    font-family: Sofia;
+    font-size: 3em;
+    margin: auto;
+    color: #ff0000;
+    animation: rainbow 8s infinite;
+}
+
+@keyframes rainbow {
+    */I added a rainbow animation to the title on the page, I got the suggestion from reference: https: //codepen.io/beben-koben/pen/gfuvc*/
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+}
+
+#menu {
+    height: 70px;
+    text-align: center;
+    margin: auto;
+    margin-top: -5px;
+}
+
+li {
+    display: inline;
+    margin-left: 0%;
+    /*Code used to display all the text in one line*/
+}
+
+#menu a {
+    display: block;
+    height: 30px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: red;
+    border: 7px solid #B41818;
+    box-shadow: 4px 4px 4px #999;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    /*https://www.codecademy.com/en/forum_questions/50c29d469bc1e14c8b001f64*/
+}
+
+#menu a:hover {
+    display: block;
+    height: 30px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: E74B4B;
+    border: 7px solid #E74B4B;
+    box-shadow: 4px 4px 4px #999;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+#menu li {
+    width: 242px;
+    float: left;
+    margin-bottom: inherit;
+}
+
+.profilepic {
+    width: 450px;
+    height: 450px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.footer {
+    padding: 1.2em;
+    background: rgb(27, 83, 110);
+    text-align: center;
+}
+
+@keyframes nudge {
+    /* i used keyframes nudge code to add animation to the header on my Home page. Reference: https://css-tricks.com/almanac/properties/a/animation/*/
+    50% {
+        transform: translate(150px, 0);
+    }
+    80% {
+        transform: translate(0px, 0);
+    }
+}
+
+@media (max-width:70em) {
+    .top-wrap {
+        display: flex;
+        height: 450px;
+    }
+    header h1 {
+        font-size: 1.6em;
+        margin: auto;
+    }
+    li {
+        display: block;
+        margin-left: 65px;
+    }
+    .column-wrap {
+        /*This code is to make the two columns go underneath each other*/
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 auto;
+        margin-top: 200px;
+        height: 1910px;
+        /*I increased the margine size so the menu nav bar is visible*/
+    }
+    .right-column {
+        width: 100%;
+        /*This code is for when you make the screen smaller the right column size goes 100% to the screen size*/
+    }
+    .left-column {
+        width: 100%;
+        /*This code is for when you make the screen smaller the left column size goes 100% to the screen size*/
+    }
+
+}
+
+@media (min-width:70em) {
+    .column-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        flex: 0 1 auto;
+    }
+}
+
+#image-gallery {
+    /*This code is to make the image gallery, with 2 columns Reference: https://css-tricks.com/seamless-responsive-photo-grid/ */
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+    column-count: 2;
+    column-gap: 0px;
+    column-count: 2;
+    column-gap: 0px;
+}
+
+#image-gallery img {
+    /*this specifies the height, width, and margins of the images Reference: https://css-tricks.com/seamless-responsive-photo-grid/ */
+    width: 100%;
+    height: auto;
+    height: 100%;
+    margin-top: 15px;
+}
+
+@media (max-width:70em) {
+  /*This code below is to make the 2 columns into 1 when the page is resized. Reference: https://css-tricks.com/seamless-responsive-photo-grid/ */
+  #image-gallery {
+      column-count: 1;
+      column-count: 1;
+      column-count: 1;
+  }
+
+}

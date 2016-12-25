@@ -5,8 +5,9 @@
 <head>
     <meta charset="utf-8">
     <title>Amna Hira Mahmood CV</title>
-    <link rel="stylesheet" href="css/styles.css" />
-<link rel="icon" href="images/favico.ico" type="image/x-icon"/> <!-- This code is for the favicon, reference: http://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page -->
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="icon" href="images/favico.ico" type="image/x-icon" />
+    <!-- This code is for the favicon, reference: http://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page -->
     <link href="https://fonts.googleapis.com/css?family=Sofia|Trocchi" rel="stylesheet">
 
 </head>
@@ -17,7 +18,7 @@
         <div id="header-wrap">
 
 
-          <a href="index.html">  <img class="imagelogo" src="images/logo.png" /></a>
+            <a href="index.html"> <img class="imagelogo" src="images/logo.png" /></a>
 
             <header>
 
@@ -36,15 +37,44 @@
     </div>
     <div class="column-wrap">
 
-        <aside class="right-column">
-            <img class="profilepic" src="images/profilepic.jpg" />
+        <aside class="top-row">
+            <h2>Contact me!</h2>
+            <p>If you would like to know more about me, please don't hesitate to contact me using the form below.</p>
         </aside>
-        <main class="left-column">
-            <h2>Hello!</h2>
-            <p>
-                I'm an Italian individual who decided to proceed her career in UK. I am currently studying at the University of Northampton, preparing myself for a career in Computer Networks Security Engineering. I am a motivated and hardworking individual who is eager
-                to learn new skills. I currently work part-time as a Supervisor at Cineworld cinemas, my
-            </p>
+        <main class="bottom-row">
+
+            <form>
+
+                <div class="form-group">
+
+
+                    <div class="form-labels">
+                        <label for="form-type"><span>Name<span class="required">* :</span></span></label>
+                        <input type="text" id="name-input">
+                    </div>
+
+                    <div class="form-labels">
+                        <label for="form-type"><span>Email address<span class="required">* :</span></span></label>
+                        <input type="text" id="email-input">
+                    </div>
+
+                    <div class="form-labels">
+                        <label for="form-type">Phone number:</label>
+                        <input type="number" id="phone-input">
+                    </div>
+
+                    <div class="form-labels">
+                        <label for="form-textarea"><span>Message<span class="required">* :</span></span></label>
+                        <textarea rows="8" cols="25" id="form-textarea"></textarea>
+                    </div>
+
+                    <div class="form-labels">
+                        <label><input type="submit"  value="Submit"/></label>
+                    </div>
+
+                </div>
+            </form>
+
         </main>
     </div>
 

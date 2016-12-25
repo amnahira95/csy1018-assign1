@@ -4,7 +4,8 @@
 
 /* CSS Document */
 
-body { /* All the content under body heading is to style the body */
+body {
+    /* All the content under body heading is to style the body */
     background: #3597E3 no-repeat;
     background-position: center;
     height: 1000px;
@@ -13,7 +14,8 @@ body { /* All the content under body heading is to style the body */
     flex-direction: column;
 }
 
-#top-wrap { /* this top wrap is used to style the are where the logo and header are situated */
+#top-wrap {
+    /* this top wrap is used to style the are where the logo and header are situated */
     height: 320px;
     width: 100%;
     text-align: center;
@@ -22,7 +24,8 @@ body { /* All the content under body heading is to style the body */
     margin-top: -4px;
 }
 
-#header-wrap { /* created a header wrap under "top-wrap" to make sure the content (logo, and header) doesnt move out when screen is resized*/
+#header-wrap {
+    /* created a header wrap under "top-wrap" to make sure the content (logo, and header) doesnt move out when screen is resized*/
     width: 75%;
     height: 280px;
     margin: auto;
@@ -50,8 +53,8 @@ h2 {
     font-size: 2.2em;
     text-align: left;
     margin-left: 20px;
+    animation: nudge 7s linear infinite alternate;
 }
-
 
 p {
     font-size: 1.2em;
@@ -59,6 +62,7 @@ p {
     font-family: Trocchi;
     text-align: justify;
     margin-left: 20px;
+    line-height: 27px;
 }
 
 .imagelogo {
@@ -72,6 +76,45 @@ header h1 {
     font-family: Sofia;
     font-size: 3em;
     margin: auto;
+    color: #ff0000;
+    animation: rainbow 8s infinite;
+}
+
+@keyframes rainbow {
+    */I added a rainbow animation to the title on the page, I got the suggestion from reference: https: //codepen.io/beben-koben/pen/gfuvc*/
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
 }
 
 #menu {
@@ -102,66 +145,87 @@ li {
     /*https://www.codecademy.com/en/forum_questions/50c29d469bc1e14c8b001f64*/
 }
 
-
-}
 #menu a:hover {
-    background-color: #20CBD9;
+    display: block;
+    height: 30px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: E74B4B;
+    border: 7px solid #E74B4B;
+    box-shadow: 4px 4px 4px #999;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
 }
+
 #menu li {
     width: 242px;
     float: left;
     margin-bottom: inherit;
 }
+
 .profilepic {
     width: 450px;
     height: 450px;
     margin-top: 35px;
     margin-left: 35px;
 }
+
 .footer {
     padding: 1.2em;
     background: rgb(27, 83, 110);
     text-align: center;
 }
-@media (max-width:30em) {
+
+@keyframes nudge {
+    /* i used keyframes nudge code to add animation to the header on my Home page. Reference: https://css-tricks.com/almanac/properties/a/animation/*/
+    50% {
+        transform: translate(150px, 0);
+    }
+    80% {
+        transform: translate(0px, 0);
+    }
+}
+
+@media (max-width:70em) {
     .top-wrap {
         display: flex;
         height: 450px;
     }
-
     header h1 {
-        font-size: 1.94em;
+        font-size: 1.6em;
         margin: auto;
     }
-
     li {
         display: block;
         margin-left: 65px;
     }
-
-    .column-wrap { /*This code is to make the two columns go underneath each other*/
+    .column-wrap {
+        /*This code is to make the two columns go underneath each other*/
         display: flex;
         flex-direction: column;
         flex: 1 0 auto;
-        margin-top: 200px; /*I increased the margine size so the menu nav bar is visible*/
+        margin-top: 200px;
+        /*I increased the margine size so the menu nav bar is visible*/
     }
-
     .right-column {
-        width: 100%; /*This code is for when you make the screen smaller the right column size goes 100% to the screen size*/
-
+        width: 100%;
+        /*This code is for when you make the screen smaller the right column size goes 100% to the screen size*/
     }
-
     .left-column {
-        width: 100%; /*This code is for when you make the screen smaller the left column size goes 100% to the screen size*/
+        width: 100%;
+        /*This code is for when you make the screen smaller the left column size goes 100% to the screen size*/
     }
-
-    .profilepic { /*resized the picture to be able to fit into a smaller screen*/
+    .profilepic {
+        /*resized the picture to be able to fit into a smaller screen*/
         width: 90%;
         height: 90%;
         margin-left: -5px;
     }
 }
-@media (min-width:30em) {
+
+@media (min-width:70em) {
     .column-wrap {
         display: flex;
         flex-direction: row-reverse;
