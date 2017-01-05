@@ -1,6 +1,7 @@
+@charset "utf-8";
+
 /* Name: Amna Mahmood - Student ID number: 16433342 */
 
-@charset "utf-8";
 
 /* CSS Document */
 
@@ -83,8 +84,10 @@ header h1 {
     animation: rainbow 8s infinite;
 }
 
+
+/*I added a rainbow animation to the title on the page, I got the suggestion from reference: https: //codepen.io/beben-koben/pen/gfuvc*/
+
 @keyframes rainbow {
-    */I added a rainbow animation to the title on the page, I got the suggestion from reference: https: //codepen.io/beben-koben/pen/gfuvc*/
     0% {
         color: #ff0000;
     }
@@ -153,7 +156,7 @@ li {
     height: 30px;
     width: 200px;
     border-radius: 12px;
-    background-color: E74B4B;
+    background-color: #E74B4B;
     border: 7px solid #E74B4B;
     box-shadow: 4px 4px 4px #999;
     font-size: 1.5em;
@@ -221,7 +224,6 @@ li {
         width: 100%;
         /*This code is for when you make the screen smaller the left column size goes 100% to the screen size*/
     }
-
 }
 
 @media (min-width:70em) {
@@ -252,11 +254,10 @@ li {
 }
 
 @media (max-width:70em) {
-  /*This code below is to make the 2 columns into 1 when the page is resized. Reference: https://css-tricks.com/seamless-responsive-photo-grid/ */
-  #image-gallery {
-      column-count: 1;
-      column-count: 1;
-      column-count: 1;
-  }
-
+    /*This code below is to make the 2 columns into 1 when the page is resized. Reference: https://css-tricks.com/seamless-responsive-photo-grid/ */
+    #image-gallery {
+        column-count: 1;
+        column-count: 1;
+        column-count: 1;
+    }
 }

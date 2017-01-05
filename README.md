@@ -33,6 +33,8 @@ I wanted my website font to be stylish so I used two google fonts. I had to sele
 
 ## Sketches
 
+These sketches below are my hand-drawings made using Paint, I made these in order to come up with an idea how to make my website look like. I made a sketch for each page, the Header and Footer are the only two things that stay the same.
+
 #### Homepage (index.html) ####
 
 ![Homepage](images/sketch1.jpg)
@@ -49,7 +51,7 @@ I wanted my website font to be stylish so I used two google fonts. I had to sele
 
 ![Homepage](images/sketch3.jpg)
 
-## Mockups/Wireframes
+## Mockups/Wireframes ##
 
 #### Homepage (index.html) ####
 
@@ -81,18 +83,25 @@ I added a flexbox and media query in this the page as well to make it suitable f
 
 ![CV](images/cv-wireframe.jpg)
 
+This is the wireframe for the CV page, as you can see I have one row and 2 columns, I will be adding a flexbox. All the other content is still the same just the content of the columns changes; I will be having subheadings and text in these 3 columns and rows.
 
 #### CV page (mobile version) ####
 
 ![CV](images/cv-mv.jpg)
 
+This is the mobile version of my CV page as you can see the height has increased and the width has reduced. This is why I will also add a media query, which will make my columns go into row. So they are easily visible on a mobile version as well.
+
 #### Contact page (contact.html) ####
 
 ![Contact](images/contact-wireframe.jpg)
 
+This is the wireframe of my contact page, I have added a form only. All the other content remains the same.
+
 #### Contact page (mobile version) ####
 
 ![Contact](images/contact-mv.jpg)
+
+This is the mobile version, all the content stays the same just the layout changes and the screen size goes smaller.
 
 ## Test plan ##
 
@@ -113,19 +122,98 @@ Now that my website is ready I am going to test it, I have made the test plan be
 11 | Worklog | There should be a worklog available in the readme file with all the records, and it should be also calculating how much time I've spent each day | My worklog is well detailed and it also says the total of hours I spent on making the website | Pass | 28.12.2016 | None
 12 | References/commenting | There should be references and comments available as well as in the code and readme file. | I have got references available however I need to comment the code a little bit more | Fail | 28.12.2016 | Comment the code
 13 | Static Contact Form | There should be a static contact form available on the  contact page. | Yes there is a static form available on the contact page with the right formatting | Pass | 28.12.2016 | None
-14 | Validation | All the CSS and HTML code should pass the validation | 
+14 | Validation | All the CSS and HTML code should pass the validation | Unfortunately it didnt pass all the validation, I will fix it and add evidence below. | Fail | 28.12.2016 | Fix errors
 15 | Extra features | I should add extra features | Yes I have added some extra features such as: Animation, Hover change color, Test plan | Pass | 28.12.2016 | None
+
+After I have fixed the little errors I am now going to validate my CSS and HTML files.
+
+## CSS & HTML Validation Evidence
+
+### Biography page ###
+
+#### Bio.html ####
+ ![Contact](images/bioerrors.jpg)
+
+Here are some errors I found in the biography page. I am now going to fix them and paste a screenshot of the evidence.
+
+![Contact](images/bio-validated.jpg)
+
+As you can see now there are no errors showing, which means my biography page has been validated successfully.
+
+#### Bio.css ####
+
+![Contact](images/biocssvalid.jpg)
+
+This is a screenshot for the validation of my biography CSS page, it shows no errors which means my CSS file is validated successfully.
+
+### Index page ###
+
+#### Index.html ####
+
+![Contact](images/indexhtmlvalid.jpg)
+
+This is a screenshot for the validation of my Index html page, it shows no errors which means my html file is validated successfully.
+
+#### Index.css ####
+
+![Contact](images/indexcssvalid.jpg)
+
+This is a screenshot for the validation of my index CSS page, it shows no errors which means my CSS file is validated successfully.
+
+### CV page ###
+
+#### Cv.html ####
+
+![Contact](images/cvhtmlvalid.jpg)
+
+This is a screenshot for the validation of my CV html page, it shows no errors which means my html file is validated successfully.
+
+#### Cv.css ####
+
+![Contact](images/cvcssvalid.jpg)
+
+This is a screenshot for the validation of my CV css page, it shows no errors which means my css file is validated successfully.
+
+### Contact page ###
+
+#### Contact.html ####
+
+![Contact](images/contacterrors.jpg)
+
+Here are some errors I found in the Contact page. I am now going to fix them and paste a screenshot of the evidence.
+
+![Contact](images/contact-validated.jpg)
+
+As you can see now there are no errors showing, which means my biography page has been validated successfully.
+
+#### Contact.css ####
+
+![Contact](images/contactcssvalid.jpg)
+
+This is a screenshot for the validation of my contact css page, it shows no errors which means my css file is validated successfully.
+
 
 ## Extra Features
 
 Below I will list all the extra features I have included in my website:
 - **ANIMATION** : I added animation to the header "biography" on bio page and "Welcome to my Digital portfolio" on index page. When the website opens the Title animates, it slides left to right continuously in slow motion.
-- **FAVICON** I added a favicon to my website on each page. So when the website is opened on a browser the icon is visible at the top of the window rather than having it blank. This makes my website look more professional.
-- **RAINBOW EFFECT TO HEADER** I added animation of rainbow effect to the title in the header where it says "Amna Hira Mahmood". The colors of the title keep changing to rainbow colors on every page with slow motion.
+- **FAVICON**: I added a favicon to my website on each page. So when the website is opened on a browser the icon is visible at the top of the window rather than having it blank. This makes my website look more professional.
+- **RAINBOW EFFECT TO HEADER**: I added animation of rainbow effect to the title in the header where it says "Amna Hira Mahmood". The colors of the title keep changing to rainbow colors on every page with slow motion.
+- **TEST PLAN**: I included a test plan which shows all the tests performed while testing my website.
+- **SCREENSHOTS OF VALDIATION**: I also added screenshots for of the CSS and HTML pages validation.
 
 ## References
 
-- References: http://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page
+References:
+- http://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page
+- https: //codepen.io/beben-koben/pen/gfuvc
+- https://www.codecademy.com/en/forum_questions/50c29d469bc1e14c8b001f64
+- https://css-tricks.com/almanac/properties/a/animation/
+- https://css-tricks.com/seamless-responsive-photo-grid/
+- https://www.sanwebe.com/2014/08/css-html-forms-designs
+- http://codepen.io/UoN-ThomasRose/pen/NbYrGj
+- http://www.sketchingwithcss.com/samplechapter/cheatsheet.html
+
 
 
 ## Worklog
@@ -138,12 +226,9 @@ Below I will list all the extra features I have included in my website:
 | 01/12/16 | <center>Started HTML & CSS | I started building the HTML code for my index file. I also started styling up the layout of the index page using CSS.</center> | 2:00pm | 5:00pm | 3 |
 | 08/12/16 | CSS, Flexbox | <center>I included a flexbox in the CSS in order to make my website look better, I also added a media query to make my homepage responsive when opened on a smaller device.</center> | 02.00 pm | 8:00pm | 6 |
 | 14/12/16 | WorkLog | I started making the WorkLog where I will be recording all the activities performed while making the website | 08.00pm | 9.00pm | 1 |
-| 18/12/16 | Portfolio structure, Github commit. | I structured my portfolio by selecting where the content would go, and I also completed the index page and started writing the code for the other website pages. At then end I committed the files to GitHub| 01.00pm |  10.00pm | 9 |
-| 23/12/16 | Made the navigation menu, Github commit. | I made the navigation menu, and added the hover effects to it. I also styled it with the animation, to make this it took me about 5 hours. At then end I committed the files to GitHub | 02.00pm | 08.00 | 6 |
-| 24/12/16 | Completed Curriculum Vitae Page, Github commit. | I completed the cv page where I have my CV and I also created the mobile version for it. At then end I committed the files to GitHub | 11.00am | 07.00pm | 8 |
-| 25/12/16 | Structured and made all the pages, Github commit. | I have finally structured and made all the pages for my website using HTML and CSS. It took me around all day to complete it all. At then end I committed the files to GitHub | 11.00am | 06.00pm | 7 |
-| 26/12/16 | ReadMe file, Github commit. | I started writing the readme file, and including content such as images, and all the description I needed to add. At then end I committed the files to GitHub | 08.00pm | 02.00am| 4 |
-| 28/12/16  |||||||
-|  |||||||
-|  |||||||
-|  |||||||
+| 18/12/16 | Portfolio structure, Github commit. | I structured my portfolio by selecting where the content would go, and I also completed the index page and started writing the code for the other website pages. At the end I committed the files to GitHub| 01.00pm |  10.00pm | 9 |
+| 23/12/16 | Made the navigation menu, Github commit. | I made the navigation menu, and added the hover effects to it. I also styled it with the animation, to make this it took me about 5 hours. At the end I committed the files to GitHub | 02.00pm | 08.00 | 6 |
+| 24/12/16 | Completed Curriculum Vitae Page, Github commit. | I completed the cv page where I have my CV and I also created the mobile version for it. At the end I committed the files to GitHub | 11.00am | 07.00pm | 8 |
+| 25/12/16 | Structured and made all the pages, Github commit. | I have finally structured and made all the pages for my website using HTML and CSS. It took me around all day to complete it all. At the end I committed the files to GitHub | 11.00am | 06.00pm | 7 |
+| 26/12/16 | ReadMe file, Github commit. | I started writing the readme file, and including content such as images, and all the description I needed to add. At the end I committed the files to GitHub | 08.00pm | 02.00am| 4 |
+| 28/12/16  | Prepared ReadMe File - Test Plan - Validation| I made a test plan where I tested everything about my website, I did this to prevent errors. I also did the write up for the ReadMe file and validated my website | 07.00pm | 01.00am | 6 |
