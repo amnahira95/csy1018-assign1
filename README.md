@@ -1,7 +1,17 @@
-#### Student Name: Amna Hira Mahmood    Student ID: 16433342
 # csy1018-assign1
 
-## Work description and development
+## Cover Sheet ##
+
+Student Full Name: Amna Hira Mahmood    
+Student ID Number: 16433342
+
+My Website link (github URL page):
+https://amnahira95.github.io/csy1018-assign1/index.html
+
+Assignment 1: Web development
+Submission date: Sunday 15/01/2017
+
+## Work description and development ##
 
 While making my Digital Portfolio I had to go through a lot of stages and decisions in order to come up with an idea on how to design my website. I first visited different portfolios. Here are some links for them: http://www.megangtalley.com/connect.html, http://www.andyhau.com/, http://mikekus.com/.
 
@@ -30,6 +40,12 @@ I made my Logo using Photoshop software working through different Layers, and I 
 ## Google Fonts ##
 
 I wanted my website font to be stylish so I used two google fonts. I had to select a couple first to come up with the right decision at the end. I tried 3-4 fonts and at the end I only liked "Sofia" and "Trocchi", so I used Sofia for all the headings and for the body font I used Trocchi font. Also the font size changes when the website is turned to mobile version, I added this feature because if the screen is smaller the text should be also smaller.
+
+## Navigation Diagram ##
+
+After selecting Google fonts, I made a simple navigation diagram which clearly shows the links from one page to another. See the image below.
+
+<img src="images/diagram.jpg" alt="Diagram" />
 
 ## Sketches
 
@@ -202,19 +218,6 @@ Below I will list all the extra features I have included in my website:
 - **TEST PLAN**: I included a test plan which shows all the tests performed while testing my website.
 - **SCREENSHOTS OF VALDIATION**: I also added screenshots for of the CSS and HTML pages validation.
 
-## References
-
-References:
-- http://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page
-- https: //codepen.io/beben-koben/pen/gfuvc
-- https://www.codecademy.com/en/forum_questions/50c29d469bc1e14c8b001f64
-- https://css-tricks.com/almanac/properties/a/animation/
-- https://css-tricks.com/seamless-responsive-photo-grid/
-- https://www.sanwebe.com/2014/08/css-html-forms-designs
-- http://codepen.io/UoN-ThomasRose/pen/NbYrGj
-- http://www.sketchingwithcss.com/samplechapter/cheatsheet.html
-
-
 
 ## Worklog
 
@@ -232,3 +235,21 @@ References:
 | 25/12/16 | Structured and made all the pages, Github commit. | I have finally structured and made all the pages for my website using HTML and CSS. It took me around all day to complete it all. At the end I committed the files to GitHub | 11.00am | 06.00pm | 7 |
 | 26/12/16 | ReadMe file, Github commit. | I started writing the readme file, and including content such as images, and all the description I needed to add. At the end I committed the files to GitHub | 08.00pm | 02.00am| 4 |
 | 28/12/16  | Prepared ReadMe File - Test Plan - Validation| I made a test plan where I tested everything about my website, I did this to prevent errors. I also did the write up for the ReadMe file and validated my website | 07.00pm | 01.00am | 6 |
+| 05/01/2017 | ReadMe file, Github Commit | I added more details to the ReadMe file, and committed to Github also. | 00.00 | 01.00am| 1|
+| 13/01/2017 | Made few changes - commit - submit | Made few last minor changes, committed it to Github. | 11.30pm | 01.30am | 1 |
+|||||TOTAL hours | 60 |
+
+## Conclusion ##
+
+The Total amount I spent at making my portfolio is of 60 hours. This has gave me enough time to build my website, analyse it and test it. I have also explained in the readme file what decisions I have made in order to decide the layout and color scheme of my website. Before building my site I made some sketches and wireframes to select the layout of my site and to give it a first look. The worklog clearly shows that I have been committing regularly and also performing a lot of tasks to be able to finalise the website.
+
+## References
+
+References:
+- http://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page
+- https://www.codecademy.com/en/forum_questions/50c29d469bc1e14c8b001f64
+- https://css-tricks.com/almanac/properties/a/animation/
+- https://css-tricks.com/seamless-responsive-photo-grid/
+- https://www.sanwebe.com/2014/08/css-html-forms-designs
+- http://codepen.io/UoN-ThomasRose/pen/NbYrGj
+- http://www.sketchingwithcss.com/samplechapter/cheatsheet.html

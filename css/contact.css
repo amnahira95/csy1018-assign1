@@ -32,6 +32,9 @@ body {
     margin: auto;
 }
 
+
+/* This code below is to style the column wrap and the rows inside the wrap */
+
 .column-wrap {
     /*I used the flex box for the layout of the rows below. Reference: http://www.sketchingwithcss.com/samplechapter/cheatsheet.html*/
     display: flex;
@@ -191,6 +194,9 @@ header h1 {
     }
 }
 
+
+/* This code is to style the menu*/
+
 #menu {
     height: 70px;
     text-align: center;
@@ -225,6 +231,9 @@ li {
     margin-bottom: inherit;
 }
 
+
+/* This code is to style the menu when you hover over it*/
+
 #menu a:hover {
     display: block;
     height: 30px;
@@ -251,6 +260,9 @@ li {
     background: rgb(27, 83, 110);
     text-align: center;
 }
+
+
+/* This code below is to make my page responsive, the content listed below chanegs when the screen size is lower than 70em.*/
 
 @media (max-width:70em) {
     .top-wrap {

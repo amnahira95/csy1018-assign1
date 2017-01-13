@@ -32,6 +32,9 @@ body {
     margin: auto;
 }
 
+
+/* This code below is to style the column wrap and the columns inside the wrap */
+
 .column-wrap {
     display: flex;
     flex-direction: column-reverse;
@@ -120,6 +123,9 @@ header h1 {
     }
 }
 
+
+/* This code is to style the menu*/
+
 #menu {
     height: 70px;
     text-align: center;
@@ -147,6 +153,9 @@ li {
     color: white;
     /*https://www.codecademy.com/en/forum_questions/50c29d469bc1e14c8b001f64*/
 }
+
+
+/* This code is to style the menu when you hover over it*/
 
 #menu a:hover {
     display: block;
@@ -190,6 +199,9 @@ li {
         transform: translate(0px, 0);
     }
 }
+
+
+/* This code below is to make my page responsive, the content listed below chanegs when the screen size is lower than 70em.*/
 
 @media (max-width:70em) {
     .top-wrap {
