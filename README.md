@@ -221,27 +221,27 @@ Below I will list all the extra features I have included in my website:
 
 ## Worklog
 
-| Date          | Task Name         |Task Description|  Time from | time to | Total Hours
-| ------------- |:-------------:    | ---------------: |---------: |---      
-| 14/11/16      | Assignment start, Repository on Github  | <center>I started my assignment by building the structure of the files, and created a repository on Github and performed an initial commit. I also made sure I was using the git commands when making folders and cloning the repo in the right folder.</center>| 09.00am |11.00pm | 2
-| 20/11/16      | Wireframes| <center>Made two wireframes for the website using Photoshop</center> | 8:00pm | 11:00pm | 2
-| 27/11/16 | Wireframes, Codeacademy | <center>I made the other 2 wireframes and used Codeacademy to increase my knowledge on HTML and CSS. I also did research on how to write a "markdown" file</center> | 6:00pm | 10:00pm | 4|
-| 01/12/16 | <center>Started HTML & CSS | I started building the HTML code for my index file. I also started styling up the layout of the index page using CSS.</center> | 2:00pm | 5:00pm | 3 |
-| 08/12/16 | CSS, Flexbox | <center>I included a flexbox in the CSS in order to make my website look better, I also added a media query to make my homepage responsive when opened on a smaller device.</center> | 02.00 pm | 8:00pm | 6 |
-| 14/12/16 | WorkLog | I started making the WorkLog where I will be recording all the activities performed while making the website | 08.00pm | 9.00pm | 1 |
-| 18/12/16 | Portfolio structure, Github commit. | I structured my portfolio by selecting where the content would go, and I also completed the index page and started writing the code for the other website pages. At the end I committed the files to GitHub| 01.00pm |  10.00pm | 9 |
-| 23/12/16 | Made the navigation menu, Github commit. | I made the navigation menu, and added the hover effects to it. I also styled it with the animation, to make this it took me about 5 hours. At the end I committed the files to GitHub | 02.00pm | 08.00 | 6 |
-| 24/12/16 | Completed Curriculum Vitae Page, Github commit. | I completed the cv page where I have my CV and I also created the mobile version for it. At the end I committed the files to GitHub | 11.00am | 07.00pm | 8 |
-| 25/12/16 | Structured and made all the pages, Github commit. | I have finally structured and made all the pages for my website using HTML and CSS. It took me around all day to complete it all. At the end I committed the files to GitHub | 11.00am | 06.00pm | 7 |
-| 26/12/16 | ReadMe file, Github commit. | I started writing the readme file, and including content such as images, and all the description I needed to add. At the end I committed the files to GitHub | 08.00pm | 02.00am| 4 |
-| 28/12/16  | Prepared ReadMe File - Test Plan - Validation| I made a test plan where I tested everything about my website, I did this to prevent errors. I also did the write up for the ReadMe file and validated my website | 07.00pm | 01.00am | 6 |
-| 05/01/2017 | ReadMe file, Github Commit | I added more details to the ReadMe file, and committed to Github also. | 00.00 | 01.00am| 1|
-| 13/01/2017 | Made few changes - commit - submit | Made few last minor changes, committed it to Github. | 11.30pm | 01.30am | 1 |
-|||||TOTAL hours | 60 |
+ Date          | Task Name         |Task Description|  Time from | time to | Total Hours
+ ------------- |:-------------:    | ---------------: |---------: |---      
+ 14/11/16      | Assignment start, Repository on Github  | <center>I started my assignment by building the structure of the files, and created a repository on Github and performed an initial commit. I also made sure I was using the git commands when making folders and cloning the repo in the right folder.</center>| 09.00am |11.00pm | 2
+ 20/11/16      | Wireframes| <center>Made two wireframes for the website using Photoshop</center> | 8:00pm | 11:00pm | 2
+ 27/11/16 | Wireframes, Codeacademy | <center>I made the other 2 wireframes and used Codeacademy to increase my knowledge on HTML and CSS. I also did research on how to write a "markdown" file</center> | 6:00pm | 10:00pm | 4
+ 01/12/16 | <center>Started HTML & CSS | I started building the HTML code for my index file. I also started styling up the layout of the index page using CSS.</center> | 2:00pm | 5:00pm | 3
+ 08/12/16 | CSS, Flexbox | <center>I included a flexbox in the CSS in order to make my website look better, I also added a media query to make my homepage responsive when opened on a smaller device.</center> | 02.00 pm | 8:00pm | 6
+ 14/12/16 | WorkLog | I started making the WorkLog where I will be recording all the activities performed while making the website | 08.00pm | 9.00pm | 1
+ 18/12/16 | Portfolio structure, Github commit. | I structured my portfolio by selecting where the content would go, and I also completed the index page and started writing the code for the other website pages. At the end I committed the files to GitHub| 01.00pm |  10.00pm | 9
+ 23/12/16 | Made the navigation menu, Github commit. | I made the navigation menu, and added the hover effects to it. I also styled it with the animation, to make this it took me about 5 hours. At the end I committed the files to GitHub | 02.00pm | 08.00 | 6
+ 24/12/16 | Completed Curriculum Vitae Page, Github commit. | I completed the cv page where I have my CV and I also created the mobile version for it. At the end I committed the files to GitHub | 11.00am | 07.00pm | 8
+ 25/12/16 | Structured and made all the pages, Github commit. | I have finally structured and made all the pages for my website using HTML and CSS. It took me around all day to complete it all. At the end I committed the files to GitHub | 11.00am | 06.00pm | 7
+ 26/12/16 | ReadMe file, Github commit. | I started writing the readme file, and including content such as images, and all the description I needed to add. At the end I committed the files to GitHub | 08.00pm | 02.00am| 4
+ 28/12/16  | Prepared ReadMe File - Test Plan - Validation| I made a test plan where I tested everything about my website, I did this to prevent errors. I also did the write up for the ReadMe file and validated my website | 07.00pm | 01.00am | 6
+ 05/01/2017 | ReadMe file, Github Commit | I added more details to the ReadMe file, and committed to Github also. | 00.00 | 01.00am| 1
+ 13/01/2017 | Made few changes - commit - submit | Made few last minor changes, committed it to Github. | 11.30pm | 01.30am | 1 |
+|||||TOTAL hours | 60
 
 ## Conclusion ##
 
-The Total amount I spent at making my portfolio is of 60 hours. This has gave me enough time to build my website, analyse it and test it. I have also explained in the readme file what decisions I have made in order to decide the layout and color scheme of my website. Before building my site I made some sketches and wireframes to select the layout of my site and to give it a first look. The worklog clearly shows that I have been committing regularly and also performing a lot of tasks to be able to finalise the website.
+The Total amount I spent at making my portfolio is of 60 hours. This has given me enough time to build my website, analyse it and test it. I have also explained in the readme file what decisions I have made in order to decide the layout and color scheme of my website. Before building my site I made some sketches and wireframes to select the layout of my site and to give it a first look. The worklog clearly shows that I have been committing regularly and also performing a lot of tasks to be able to finalise the website.
 
 ## References
 
